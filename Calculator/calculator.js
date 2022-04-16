@@ -20,6 +20,18 @@ app.post("/", function (req, res) {
   res.send("The result of the calculation is " + result);
 });
 
+// BMI Calculator
+app.get("/bmiCalculator", function (req, res) {
+  res.sendFile(__dirname + "/bmiCalculator.html"); // sends file to the browser
+});
+
+app.post("/bmiCalculator", function (req, res) {
+  var w = Number(req.body.weight);
+  var h = Number(req.body.height);
+  var bmi = w / Math.pow(h, 2);
+  res.send("Your BMI is: " + Math.round(bmi));
+});
+
 app.listen(port, function () {
   console.log("Server started on port: " + port);
 });
