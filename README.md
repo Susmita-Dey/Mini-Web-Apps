@@ -1,2 +1,2 @@
 # Mini-Web-Apps
-This repository contains some mini web apps made with NodeJS and Express.js
+This repository contains all sorts of web apps since I started my web dev journey.
