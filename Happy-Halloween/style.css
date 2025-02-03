@@ -1,0 +1,56 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("https://cdn.pixabay.com/photo/2020/09/23/19/58/halloween-5596921_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    background-color: rgb(2, 6, 26);
+    width: max-content;
+    margin-left: 530px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: yellow;
+    margin-bottom: 50px;
+}
+
+h2 {
+    background-color: rgb(2, 6, 26);
+    width: max-content;
+    margin-left: 280px;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+}
+
+.ghost_button {
+    background-color: rgb(2, 6, 26);
+    font-family:'Times New Roman', Times, serif;
+    color: yellowgreen;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.ghost_button:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+    zoom: 1.3;
+}

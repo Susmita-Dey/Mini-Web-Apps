@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation Colors</title>
+    <style>
+        div {
+            padding: 1rem;
+            width: 250px;
+            height: 100px;
+            animation-name: textbox;
+            animation-duration: 6s;
+        }
+
+        @keyframes textbox {
+            0% {
+                background-color: red;
+                color: aqua;
+            }
+            25% {
+                background-color: palevioletred;
+                color: yellow;
+            }
+            50% {
+                background-color: blueviolet;
+                color: blanchedalmond;
+            }
+            75% {
+                background-color: goldenrod;
+                color: red;
+            }
+            100% {
+                background-color: rgb(217, 255, 0);
+                color: rgb(0, 132, 255);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>CSS ANIMATIONS</h1>
+    </div>
+    <p>The animation will end and get back to its original form after the time-frame.</p>
+</body>
+</html>

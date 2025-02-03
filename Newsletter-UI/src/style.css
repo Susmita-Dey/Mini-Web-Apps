@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/email-marketing.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main h1 {
+  color: crimson;
+  margin-bottom: 3rem;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #7900ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  border: 0.5rem solid green;
+  border-radius: 3%;
+  padding: 2rem;
+  background-color: antiquewhite;
+}
+
+.formInp {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 5rem;
+  gap: 0;
+  border: 1px solid blue;
+}
+
+input[type="email"]::placeholder {
+  /* Firefox, Chrome, Opera */
+  text-align: right;
+}
+input[type="text"]::placeholder {
+  /* Firefox, Chrome, Opera */
+  text-align: right;
+}
+
+#submit {
+  margin-top: 2rem;
+  padding: 0.5rem 8.3rem;
+  border: 0.2rem solid purple;
+  border-radius: 1rem;
+  /* color: ; */
+  font-size: medium;
+  background-color: coral;
+  cursor: pointer;
+}
+
+#submit:hover {
+  zoom: 1;
+  color: antiquewhite;
+  background-color: crimson;
+}
+
+.foot {
+  margin-top: 5rem;
+  border-top: 0.1rem solid;
+  text-align: center;
+  color: deeppink;
+  gap: 1rem;
+  font-size: medium;
+  font-family: "sans-serif";
+  font-weight: bold;
+}

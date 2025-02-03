@@ -1,0 +1,73 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url("images/flower-background.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.container {
+    width: 90%;
+    height: 150%;
+    background-color: #ee8ab9;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+h1 {
+    font-weight: 800;
+    color: crimson;
+}
+
+p {
+    font-family:cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(150, 255, 80);
+}
+
+h1,p,img {
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+img {
+    height: 30%;
+    width: 35%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    float:right;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: rgb(238, 238, 238);
+    padding: 5px 20px 15px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 8px;
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    background-color: rgb(33, 28, 44);
+    color: white;
+    padding: 15px 17px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 25%;
+}

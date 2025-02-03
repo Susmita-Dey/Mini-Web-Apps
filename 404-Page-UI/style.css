@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 120px 500px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  justify-content: center;
+}
+
+.page-not-found {
+  height: 7vh;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
+
+p span {
+  color: rgb(110, 110, 110);
+  font-weight: bolder;
+  font-family: "Spline Sans", sans-serif;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.time-out {
+  color: grey;
+  font-size: 13px;
+}
+
+.btn {
+  margin-top: 35px;
+}
+
+.btn .reload {
+  background-color: rgb(0, 119, 255);
+  border: 1px solid rgb(0, 119, 255);
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: aliceblue;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 220px;
+  cursor: pointer;
+}
+
+.btn .details {
+  /* background-color: white; */
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: grey;
+  font-size: 13px;
+  font-weight: 590;
+  cursor: pointer;
+}
